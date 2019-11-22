@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="mainPage.css">
+    <title>To Do List</title>
+  </head>
+  <body>
+    <h1>To-Do-List</h1>
+    <div id=div2>
+      <input type="text" id="text-box" placeholder="Enter Your Text">
+      <input type="button" id="btn" value="+">
+    </div>
+    <div id='div1'><ul id="ul1"></ul></div>
+    <script>
+      var e=document.getElementById('text-box')
+      var e1=document.getElementById('btn')
+      var e2 = document.createElement("ul")
+      var e3=document.getElementById('div1')
+      e1.addEventListener('click',testClick)
+
+      function testClick(){
+        var e4=document.createElement('li')
+        var e5=document.createElement('button')
+        e4.textContent=e.value
+        e2.appendChild(e4)
+        e3.appendChild(e2)
+        e4.appendChild(e5)
+
+        e5.id='btn1'
+      }
+      </script>
+  </body>
+</html>
