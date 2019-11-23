@@ -1,9 +1,10 @@
 ul li {
-  padding: 12px 40px 12px 40px;
+  padding: 12px 600px 12px 500px;
   list-style-type: none;
   background: #eee;
-  font-size: 18px;
+  font-size: 35px;
   margin-left: -40px;
+  font-family: "Freestyle Script";
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
@@ -20,7 +21,7 @@ float:right;
 background-color: DodgerBlue;
 border-radius: 5px;
 padding: 12px;
-margin-block-start: -4px;
+margin-block-start: 5px;
 background: url('trash.jpg');
 
 }
@@ -59,7 +60,9 @@ h1{
   text-align: center;
   background-color: #eee;
   color: DodgerBlue;
-  padding: 20px;
+  padding: 5px;
   margin-block-end: 0;
   margin-block-start: 0;
+  font-family: "Freestyle Script";
+  font-size: 80px;
 }
